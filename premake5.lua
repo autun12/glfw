@@ -24,6 +24,7 @@ project "GLFW"
 		"src/platform.c",
 		"src/vulkan.c",
 		"src/window.c",
+		"src/posix_module.c"
 	}
 
 	filter "system:linux"
