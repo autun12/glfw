@@ -30,8 +30,9 @@ project "GLFW"
 	filter "system:linux"
 		pic "On"
 
-		systemversion "latest"
-		
+		systemversion "latest"		
+		buildoptions { "-Wno-incompatible-pointer-types" }
+
 		files
 		{
 			"src/x11_init.c",
